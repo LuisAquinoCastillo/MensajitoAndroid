@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.unitec.mensajitoandroid">
+<!--Aqui se dan los permisos de accesos externos a la aplicaccion -->
 
+    <!-- Permiso para poder acceder a interner -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- Permiso para usar gps de alta resolución -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <!-- Permiso para usar gps de baja resolucion -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <!-- -->
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
